@@ -3,6 +3,8 @@ Additional material for a paper on morphology-based complexity metrics
 
 ## 1.- Overview of the State-of-the-art Data Complexity Metrics
 
+(Add a small intro)
+
 <html>
 <table>
  <caption><b>Table 1</b>: State-of-the-art data complexity metrics by focus, from (Lorena et al., 2019).</caption>
