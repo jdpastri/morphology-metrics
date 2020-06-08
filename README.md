@@ -187,11 +187,18 @@ These metrics study graph properties of the data, after using the distances betw
 ## References
 
  Lorena,  A.C.,  Garcia,  L.P.F.,  Lehmann,  J.,  Souto,  M.C.P.,  Ho,  T.K.:  How  Complex  is  your  classification  problem?  A  survey  on  measuring  classification  complexity. arXiv:1808.03591 (2019)
+ 
  Ho, T.K., Basu, M.: Complexity measures of supervised classification problems.  IEEETransactions on Pattern Analysis and Machine Intelligence 24(3), 289–300 (2002). DOI10.1109/34.990132
+ 
   Leyva, E., Gonzalez, A., Perez, R.: A Set of Complexity Measures Designed for Applying Meta-Learning to Instance Selection.  IEEE Transactions on Knowledge and DataEngineering27(2), 354–367 (2015).  DOI 10.1109/TKDE.2014.2327034
   Orriols-Puig, A., Macia, N., Ho, T.K.: Documentation for the data complexity library in C++.  Universitat Ramon Llull, La Salle 196, 1–40 (2010)
+  
   Hoekstra, A., Duin, R.: On the nonlinearity of pattern classifiers.  In: Proceedings of 13th International Conference on Pattern Recognition, vol. 4, pp. 271–275 vol.4 (1996). DOI 10.1109/ICPR.1996.547429.  ISSN: 1051-4651
+  
   Tanwani, A.K., Farooq, M.: Classification Potential vs. Classification Accuracy: A Comprehensive Study of Evolutionary Algorithms with Biomedical Datasets. In: J. Bacardit, W. Browne, J. Drugowitsch, E. Bernado-Mansilla, M.V. Butz (eds.) Learning Classifier Systems, Lecture Notes in Computer Science, pp. 127–144. Springer, Berlin, Heidelberg(2010).  DOI 10.1007/978-3-642-17508-49
+  
    Morais,  G.,  Prati,  R.C.:  Complex  Network  Measures  for  Data  Set  Characterization. In: 2013 Brazilian Conference on Intelligent Systems, pp. 12–18 (2013).  DOI 10.1109/BRACIS.2013.11
+   
    Garcia,  L.P.F.,  Carvalho,  A.C.P.d.L.F.d.,  Lorena,  A.C.:  Effect  of  label  noise  in  the complexity of classification problems. Neurocomputing (2015). DOI 10.1016/j.neucom.2014.10.085
+   
     Zhu, X.: Semi-supervised learning with graphs.  phd, Carnegie Mellon University, USA(2005).  AAI3179046 ISBN-10: 0542190591
