@@ -109,7 +109,7 @@ This paper revisits the complexity metrics used to detect class overlap and how 
 </html>
 
 
-
+A short summary is provided for each of the named complexity metrics.
 
 
 ### Neighbourhood metrics
