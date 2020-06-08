@@ -201,4 +201,4 @@ These metrics study graph properties of the data, after using the distances betw
    
    Garcia,  L.P.F.,  Carvalho,  A.C.P.d.L.F.d.,  Lorena,  A.C.:  Effect  of  label  noise  in  the complexity of classification problems. Neurocomputing (2015). DOI 10.1016/j.neucom.2014.10.085
    
-    Zhu, X.: Semi-supervised learning with graphs.  phd, Carnegie Mellon University, USA(2005).  AAI3179046 ISBN-10: 0542190591
+   Zhu, X.: Semi-supervised learning with graphs.  phd, Carnegie Mellon University, USA(2005).  AAI3179046 ISBN-10: 0542190591
