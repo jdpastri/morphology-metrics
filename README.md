@@ -1,7 +1,22 @@
-# morphology-metrics
-Additional material for a paper on morphology-based complexity metrics
+# Data Complexity Metrics Based on Morphology for Overlap and Imbalance: Snapshot, New Overlap Number of Balls Metrics and Singular Problems Prospect
 
-## 1.- Overview of the State-of-the-art Data Complexity Metrics
+Complementary material for the paper on morphology-based complexity metrics.
+
+This repository is organised as follows:
+
+1. Abstract
+1. Overview of the State-of-the-art Data Complexity Metrics
+1. Results
+
+## Abstract
+
+Data Science and Machine Learning have become fundamental assets for companies and research institutions alike. As one of its fields, supervised classification allows for class prediction of new samples, learning from given training data. However, some properties can cause datasets to be problematic to classify.
+
+In order to evaluate a dataset a priori, data complexity metrics have been used extensively. They provide information regarding different intrinsic characteristics of the data, which serve to evaluate classifier compatibility and a course of action that improves performance. However, most complexity metrics focus on just one characteristic of the data, which can be insufficient to properly evaluate the dataset towards the classifiers' performance. In fact, class overlap, a very detrimental feature for the classification process (especially when imbalance among class labels is also present) is hard to assess.
+
+This research work focuses on complexity metrics based on data morphology. In accordance to their nature, the premise is that they provide both good estimates for class overlap, and great correlations with the classification performance. For that purpose, a novel family of metrics have been developed. Being based on ball coverage by classes, they are named after Overlap Number of Balls. Finally, some prospects for the adaptation of the former family of metrics to singular (more complex) problems are discussed.
+
+## Overview of the State-of-the-art Data Complexity Metrics
 
 (Add a small intro)
 
@@ -96,7 +111,7 @@ Additional material for a paper on morphology-based complexity metrics
 
 
 
-### 1.1.- Neighbourhood metrics
+### Neighbourhood metrics
 
 These metrics aim to discern the boundaries between the classes or their structure, studying the neighbourhoods of the points. These six metrics are the most prevalent:
 
@@ -118,7 +133,7 @@ These metrics aim to discern the boundaries between the classes or their structu
 * LSC: this is the Local Set Average Cardinality, from \cite{leyva_set_2015}. The local set of an instance consists of the data points from its class that are closer than those of other classes. Its cardinality can indicate the closeness of that instance to the class boundaries, since points near them would have close neighbours from a different class, and their local set would thus hold few neighbours from their same class. LSC is derived from the ratio between the mean of those cardinalities and the total instances. Higher LSC indicates less complexity.
 
 
-### 1.2.- Feature Overlap
+### Feature Overlap
 
 
 This group of metrics assesses the capability of features for the discerning of the classes. If there is at least one feature with low overlap of different classes, the classification should be easier and, thus, obtain better results. The same works for combinations of features and areas of the n-dimensional space of each dataset.
@@ -132,7 +147,7 @@ Five different metrics can be enumerated:
 choosing the most efficient feature and setting aside the non-overlapped points of that feature, until there are no more points or features. F4 indicates the ratio of points that have been discerned over the total number of points, so greater values of F4 signal lower complexity.
 
 
-### 1.3.- Linearity
+### Linearity
 
 These measures assess the ease of separability of the different classes by hyperplanes, which would lead to easier classification. There are three main metrics in this category:
 
@@ -142,7 +157,7 @@ The bigger the L2, the more complex a problem will be.
 * L3: it is the Non-Linearity of a Linear Classifier, from \cite{hoekstra_nonlinearity_1996}. For this metric, new points are generated using pairs of points sharing
 a class, and they are classified using the initial data as the training set for the generation of the classification model. L3 is the ratio of the misclassified points from those interpolated. A higher value of L3 indicates more complex boundaries and 
 
-### 1.4.- Dimensionality
+### Dimensionality
 
 This set of measures reflect the data sparsity that can appear from a high dimensionality. When a dataset has low-density or even void areas, the model might fail to correctly classify new data there. Three metrics stand out:
 
@@ -151,7 +166,7 @@ This set of measures reflect the data sparsity that can appear from a high dimen
 * T4: this is the Ratio of the PCA Dimension to the Original Dimension, which is the division of the dimensionality of the PCA selected attributes over the original dimensionality. Greater values indicate that more features are necessary to explain the data variability and, usually, higher complexity. 
 
 
-### 1.5.- Class balance
+### Class balance
 
 These metrics measure the differences in the number of elements in each class, which could favour the classification of the predominant class. The two most common metrics are:
 
@@ -159,7 +174,7 @@ These metrics measure the differences in the number of elements in each class, w
 
 * C2: this is the Imbalance Ratio, using the multiclass modification in \cite{tanwani_classification_2010}. It has the value "0" for balanced problems, and higher values (up to 1) indicate more imbalance.
 
-### 1.6.- Network properties
+### Network properties
 
 These metrics study graph properties of the data, after using the distances between data points to generate it. To this end, each point becomes a node and the instructions in \cite{morais_complex_2013}, \cite{garcia_effect_2015} and \cite{zhu_semi-supervised_2005-1} are followed in order to decide the edges, which only join close points that belong to the same class. The three basic metrics are the following: 
 
