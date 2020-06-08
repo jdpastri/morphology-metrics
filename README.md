@@ -19,11 +19,11 @@ This research work focuses on complexity metrics based on data morphology. In ac
 
 ## Overview of the State-of-the-art Data Complexity Metrics
 
-(Add a small intro)
+This paper revisits the complexity metrics used to detect class overlap and how they relate to the classification results. Said metrics can be categorised depending on the data characteristics they study. Table 1 shows the metrics that were considered as the state-of-the-art, from (Lorena et al., 2019), grouped by focus.
 
 <html>
 <table>
- <caption><b>Table 1</b>: State-of-the-art data complexity metrics by focus, from (Lorena et al., 2019).</caption>
+ <caption><b>Table 1</b>: State-of-the-art data complexity metrics, by focus, from (Lorena et al., 2019).</caption>
  <thead>
   <tr>
    <th scope="col">Type of metric</th>
@@ -183,6 +183,13 @@ These metrics study graph properties of the data, after using the distances betw
 * Density: it is the Average Density of the Network, which is obtained from the ratio between the number of edges of the graph and the maximum possible amount of edges for that graph. The more edges, the lower the complexity.
 * Clustering Coefficient: this metric is derived from the mean of the ratio of edges between each point and its neighbours and the maximum number of edges between them, for every point. It signals the tendency to create cliques. The higher the value, the most complex the dataset.
 * Hubs: this is the Mean Hub Score of the graph. The hub score measures the importance of each node from both its connections and their hub scores, in an iterative way. The higher the value, the most complex the dataset.
+
+## Results
+
+Three different files are provided, each including the theoretical overlap (only for the artificial datasets), the value of each metric and the classification results, per dataset. Each file shows the results for different types of dataset: balanced artificial, imbalanced artificial and real datasets.
+1. "Balanced artificial dataset results"
+1. "Imbalanced artificial dataset results"
+1. "Real dataset results"
 
 ## References
 
