@@ -184,7 +184,7 @@ These metrics study graph properties of the data, after using the distances betw
 * Clustering Coefficient: this metric is derived from the mean of the ratio of edges between each point and its neighbours and the maximum number of edges between them, for every point. It signals the tendency to create cliques. The higher the value, the most complex the dataset.
 * Hubs: this is the Mean Hub Score of the graph. The hub score measures the importance of each node from both its connections and their hub scores, in an iterative way. The higher the value, the most complex the dataset.
 
-### References
+## References
 
  Lorena,  A.C.,  Garcia,  L.P.F.,  Lehmann,  J.,  Souto,  M.C.P.,  Ho,  T.K.:  How  Complex  is  your  classification  problem?  A  survey  on  measuring  classification  complexity. arXiv:1808.03591 (2019)
  Ho, T.K., Basu, M.: Complexity measures of supervised classification problems.  IEEETransactions on Pattern Analysis and Machine Intelligence 24(3), 289–300 (2002). DOI10.1109/34.990132
