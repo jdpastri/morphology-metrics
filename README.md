@@ -191,6 +191,11 @@ Three different files are provided, each including the theoretical overlap (only
 1. "Imbalanced artificial dataset results"
 1. "Real dataset results"
 
+Likewise, three other files that present the correlations between the results from the complexity metrics and the classification of said datasets are provided.
+1. "Balanced artificial dataset correlations"
+1. "Imbalanced artificial dataset correlations"
+1. "Real dataset correlations"
+
 ## References
 
  Lorena,  A.C.,  Garcia,  L.P.F.,  Lehmann,  J.,  Souto,  M.C.P.,  Ho,  T.K.:  How  Complex  is  your  classification  problem?  A  survey  on  measuring  classification  complexity. arXiv:1808.03591 (2019)
