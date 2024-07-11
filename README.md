@@ -1,6 +1,9 @@
-This repository adds supplementary material for the following paper, which which is waiting for approval by a journal.
+This repository adds supplementary material for the following paper, published in 2021 in Knowledge and Information Systems:
 
-https://arxiv.org/abs/2007.07935
+Pascual-Triana, J.D., Charte, D., Andrés Arroyo, M. et al. Revisiting data complexity metrics based on morphology for overlap and imbalance: snapshot, new
+overlap number of balls metrics and singular problems prospect. Knowl Inf
+Syst 63, 1961–1989 (2021). https://doi.org/10.1007/s10115-021-01577-1j.cor.2020.104979.
+
 
 Here, three different files, each including the theoretical overlap (only for the artificial datasets), the value of each metric and the classification results, per dataset, are provided. Each file shows the results for different types of dataset: balanced artificial, imbalanced artificial and real datasets.
 
@@ -18,4 +21,4 @@ Likewise, three other files that present the correlations between the results fr
 
 1. "Real dataset correlations"
 
-The rest of the information will be shown after obtaining approval by the journal. 
+ 
